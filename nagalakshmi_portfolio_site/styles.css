@@ -1,0 +1,20 @@
+
+/* Simple modern responsive styles */
+:root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#7c3aed;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#071427 0%, #071a2a 100%);color:#e6eef8;line-height:1.6}
+.container{max-width:980px;margin:0 auto;padding:28px}
+.hero{padding:48px 0;text-align:center}
+.hero h1{font-size:2.2rem;margin-bottom:6px;letter-spacing:0.4px}
+.role{color:var(--muted);margin-bottom:12px}
+.contact a{color:#cfe7ff;text-decoration:none}
+.btn{display:inline-block;padding:10px 16px;background:var(--accent);color:white;border-radius:10px;text-decoration:none;margin:8px 6px}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.08)}
+.card{background:rgba(255,255,255,0.02);border-radius:12px;padding:18px;margin:18px 0;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+h2{margin-bottom:10px;color:#cde7ff}
+.project h3{margin-bottom:6px}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;list-style:none;padding:0}
+.skills-grid li{background:rgba(255,255,255,0.03);padding:10px;border-radius:8px;color:var(--muted)}
+.footer{padding:20px 0;text-align:center;color:var(--muted);font-size:14px;margin-top:20px}
+.small{font-size:13px;color:var(--muted)}
+@media (max-width:600px){.hero h1{font-size:1.6rem}.container{padding:16px}}
